@@ -5,7 +5,7 @@ export class Newsitem extends Component {
     const { title, description,imgurl,newsurl } = this.props; //deconstrtucting 
     return (
       <div className="my-3">
-        <div className="card" style={{ width: "18rem" }}>
+        <div className="card" >
           <img src={!imgurl? "https://pdtxar.com/wp-content/uploads/2019/04/person-placeholder.jpg":imgurl} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title">{title}</h5>
